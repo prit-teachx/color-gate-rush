@@ -1,0 +1,36 @@
+.root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+  background: #050510;
+  color: #e8ffff;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #ff00aa;
+}
+
+.msg {
+  margin: 0;
+  opacity: 0.8;
+  max-width: 420px;
+  font-size: 0.95rem;
+}
+
+.btn {
+  margin-top: 8px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: 1px solid #00f0ff88;
+  background: rgba(0, 240, 255, 0.12);
+  color: #00f0ff;
+  font-weight: 700;
+  cursor: pointer;
+}
